@@ -61,7 +61,7 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-5">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500">
           <a
-            href="https://www.instagram.com/dhyann.patel/profilecard/?igsh=MTZhZDBvaTVjYTAyZg=="
+            href="https://www.instagram.com/dhyann.patel/"
             target="_blank"
           >
             <BsInstagram />
@@ -139,7 +139,7 @@ const Navbar = () => {
           <ul className="flex flex-wrap gap-10">
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500">
             <a
-            href="https://www.instagram.com/dhyann.patel/profilecard/?igsh=MTZhZDBvaTVjYTAyZg=="
+            href="https://www.instagram.com/dhyann.patel/"
             target="_blank"
           >
             <BsInstagram />
