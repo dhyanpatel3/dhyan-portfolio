@@ -21,7 +21,7 @@ const Tech = () => {
   return (
     <div
       id="tech"
-      className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32"
+      className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32 scroll-mt-24"
     >
       <motion.h1
         variants={variants}
@@ -39,103 +39,103 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.5 }}
         >
-          <BiLogoMongodb className="cursor-pointer text-[40px] text-green-600 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float1 hover:shadow-lg hover:opacity-25" />
+          <BiLogoMongodb className="cursor-pointer text-[40px] text-green-600 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float1 hover:shadow-lg" />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
-          <SiExpress className="cursor-pointer text-[40px] text-white transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float2  hover:shadow-lg hover:opacity-25" />
+          <SiExpress className="cursor-pointer text-[40px] text-white transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float2 hover:shadow-lg" />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
-          <SiReact className="cursor-pointer text-[40px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float1  hover:shadow-lg hover:opacity-25" />
+          <SiReact className="cursor-pointer text-[40px] text-blue-400 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float1 hover:shadow-lg" />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
-          <FaNodeJs className="cursor-pointer text-[40px] text-green-500 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float1  hover:shadow-lg hover:opacity-25 " />
+          <FaNodeJs className="cursor-pointer text-[40px] text-green-500 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float1 hover:shadow-lg" />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
-          <FaJs className="cursor-pointer text-[40px] text-yellow-300 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float2  hover:shadow-lg hover:opacity-25" />
+          <FaJs className="cursor-pointer text-[40px] text-yellow-300 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float2 hover:shadow-lg" />
         </motion.div>
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
           <img
             src={java}
             alt=""
-            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:translate-y-5 md:w-[120px] animate-float2  hover:shadow-lg hover:opacity-25"
+            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:scale-110 hover:brightness-125 md:w-[120px] animate-float2 hover:shadow-lg"
           />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
           <img
             src={python}
             alt=""
-            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:translate-y-5 md:w-[120px] animate-float1 hover:shadow-lg hover:opacity-25 "
+            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:scale-110 hover:brightness-125 md:w-[120px] animate-float1 hover:shadow-lg"
           />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
           <img
             src={mysql}
             alt=""
-            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:translate-y-5 md:w-[120px] animate-float2  hover:shadow-lg hover:opacity-25 "
+            className="w-[40px] cursor-pointer text-[50px] transition-all duration-300 hover:scale-110 hover:brightness-125 md:w-[120px] animate-float2 hover:shadow-lg"
           />
         </motion.div>
 
-         <motion.div 
-            variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
-         >
-          <RiTailwindCssFill className="cursor-pointer text-[40px] text-blue-600 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float1  hover:shadow-lg hover:opacity-25 " />
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
+        >
+          <RiTailwindCssFill className="cursor-pointer text-[40px] text-blue-600 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float1 hover:shadow-lg" />
         </motion.div>
 
-        <motion.div 
-           variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      transition={{duration:0.5}}
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5 }}
         >
-          <FaGitAlt className="cursor-pointer text-[40px] text-red-600 transition-all duration-300 hover:translate-y-5 sm:text-[40px] md:text-[120px] animate-float2  hover:shadow-lg hover:opacity-25 " />
+          <FaGitAlt className="cursor-pointer text-[40px] text-red-600 transition-all duration-300 hover:scale-110 hover:brightness-125 sm:text-[40px] md:text-[120px] animate-float2 hover:shadow-lg" />
         </motion.div>
       </div>
     </div>
   );
 };
 
-export default Tech; 
+export default Tech;
