@@ -1,4 +1,4 @@
-import dhyan from "/src/images/mno.png";
+import dhyan from "/src/images/mno.webp";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 const Typewriter = ({ text, texts, speed = 100, pause = 1000 }) => {
