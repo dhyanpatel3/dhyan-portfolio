@@ -1,4 +1,5 @@
 import dhyan from "/src/images/mno.webp";
+import d12 from "/src/images/d12.png";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { PiReadCvLogoLight } from "react-icons/pi";
@@ -60,7 +61,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={dhyan}
+            src={d12}
             alt=""
             className="w-[250px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[250px] animate-float"
           />
@@ -101,7 +102,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
             <a
-              href="https://drive.google.com/file/d/1Ja_Elz4aLFd1yqtyYzfk5InlN7kdEYBn/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uDH2zl-veRIj7SFTFl3n8RmbXrHdPJto/view?usp=sharing"
               target="_blank"
               className="flex text-nowrap rounded-lg border border-indigo-600 bg-black px-3 py-2 text-base font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:translate-y-2 hover:shadow-xl hover:shadow-indigo-600 gap-2"
             >
